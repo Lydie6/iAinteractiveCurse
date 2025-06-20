@@ -1,0 +1,22 @@
+/* src/index.css (ou ton fichier CSS global) */
+
+@font-face {
+  font-family: 'pixelfont'; 
+  src: url('../src/assets/fonts/Silkscreen-Regular.ttf') format('truetype'); /* Chemin vers ton fichier de police */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Bonne pratique pour le chargement des polices */
+}
+@font-face {
+  font-family: 'pixelfont2'; 
+  src: url('../src/assets/fonts/PressStart2P-Regular.ttf') format('truetype'); /* Chemin vers ton fichier de police */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Bonne pratique pour le chargement des polices */
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

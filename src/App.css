@@ -1,0 +1,33 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.flexColStart {
+  @apply flex flex-col justify-center items-start;
+}
+.flexColCenter {
+  @apply flex flex-col justify-center items-center;
+}
+.flexRowCenter {
+  @apply flex flex-row justify-center items-center;
+}
+.flexRowStart {
+  @apply flex flex-row justify-start items-start;
+}
+.flexRowEnd {
+  @apply flex flex-row justify-end items-end;
+}
+.flexColEnd {
+  @apply flex flex-col justify-end items-end;
+}
+.flexColBetween {
+  @apply flex flex-col justify-between items-start;
+}
+.flexRowBetween {
+  @apply flex justify-between ;
+}
+.flexColAround {
+  @apply flex flex-col justify-around items-start;
+}
